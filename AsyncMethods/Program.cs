@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace AsyncMethods
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             WriteLine("start");
             var len = GetPageLength();
@@ -19,16 +19,14 @@ namespace AsyncMethods
 
         }
 
-        public static Task<long?> GetPageLength()
+        private static Task<long?> GetPageLength()
         {
             HttpClient client = new HttpClient();
             var httpTask = client.GetAsync("http://apress.com");
             WriteLine("doing other job");
 
             return httpTask.ContinueWith((Task<HttpResponseMessage>
-            antecedent) => {
-                return antecedent.Result.Content.Headers.ContentLength;
-            });
+            antecedent) => antecedent.Result.Content.Headers.ContentLength);
         }
     }
 }

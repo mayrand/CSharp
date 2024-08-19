@@ -11,15 +11,17 @@ namespace CSharp
         static void Main(string[] args)
         {
             Animal fish = new Fish();
-            Console.WriteLine(fish.Breathe());
-            Console.WriteLine(fish.Eat());
-            Console.WriteLine(fish.Sleep());
+            Console.WriteLine(fish.Breathe());  //Animal::Breathe
+            Console.WriteLine(fish.Eat());      //fish::Eat
+            Console.WriteLine(fish.Sleep());    //Animal::Sleep
             //Console.WriteLine(fish.Swim());
             Fish fish2 = new Fish();
             Console.WriteLine(fish2.Breathe());
             Console.WriteLine(fish2.Eat());
             Console.WriteLine(fish2.Sleep());
             Console.WriteLine(fish2.Swim());
+            //Fish fish3 = (Fish)new Animal();
+
         }
     }
 
@@ -46,5 +48,32 @@ namespace CSharp
             Console.WriteLine("fish constructor");
 
         }
+    }
+
+    class Bird : Animal
+    {
+        public sealed override string Breathe()
+        {
+            return base.Breathe();
+        }
+
+        public sealed override string Sleep()
+        {
+            return base.Sleep();
+        }
+    }
+
+    class Penguin : Bird
+    {
+        public new string Breathe()
+        {
+            return "Penguin::Breathe";
+        }
+
+        // Can't override sealed method
+        //public override string Sleep()
+        //{
+        //    return base.Eat();
+        //}
     }
 }
