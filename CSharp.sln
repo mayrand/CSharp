@@ -1,13 +1,13 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{4789015C-5D1B-4273-A695-697B2EA0ABF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{4789015C-5D1B-4273-A695-697B2EA0ABF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncMethods", "AsyncMethods\AsyncMethods.csproj", "{11F67115-3254-4119-A89E-E49A8A8C9F5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncMethods", "AsyncMethods\AsyncMethods.csproj", "{11F67115-3254-4119-A89E-E49A8A8C9F5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic", "Dynamic\Dynamic.csproj", "{D1C40128-FE45-437B-A351-33C75724309C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dynamic", "Dynamic\Dynamic.csproj", "{D1C40128-FE45-437B-A351-33C75724309C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{56C6A345-E0F8-4B33-9430-6A2E40C62B08}"
 EndProject
@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{FB2780CC-B7EB-47B7-9B3D-03F1B147B534}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{84F2967B-2754-43E4-87F2-BA02863FB5C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{84F2967B-2754-43E4-87F2-BA02863FB5C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleVsDecimal", "DoubleVsDecimal\DoubleVsDecimal.csproj", "{AEE17362-B110-4B5F-BD32-11ABF4F904DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{84F2967B-2754-43E4-87F2-BA02863FB5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84F2967B-2754-43E4-87F2-BA02863FB5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84F2967B-2754-43E4-87F2-BA02863FB5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE17362-B110-4B5F-BD32-11ABF4F904DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE17362-B110-4B5F-BD32-11ABF4F904DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE17362-B110-4B5F-BD32-11ABF4F904DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE17362-B110-4B5F-BD32-11ABF4F904DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
