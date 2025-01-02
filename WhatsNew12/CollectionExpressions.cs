@@ -1,6 +1,6 @@
 namespace WhatsNew12;
 
-ref struct CollectionExpressions
+ref struct CollectionExpressions()
 {
     // Rather than initializing an array as follows:
     char[] vowels1 = new[] {'a','e','i','o','u'};
@@ -11,10 +11,6 @@ ref struct CollectionExpressions
     List<char> list = ['a','e','i','o','u'];
     HashSet<char> set = ['a','e','i','o','u'];
     ReadOnlySpan<char> span = ['a','e','i','o','u'];
-
-    public CollectionExpressions()
-    {
-    }
 
     // Second, they are target-typed, which means that you can omit the type in other
     //     scenarios where the compiler can infer it, such as when calling methods:
