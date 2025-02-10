@@ -9,8 +9,13 @@ namespace AsyncMethods
 {
     internal static class Program
     {
-        private static void Main(string[] args)
+        private static async Task Main(string[] args)
         {
+            await test.Method2();
+            await test.Method1();
+            // Method2 - 00:00:01.0147339
+            // Method1 - 00:00:02.0088333
+
             WriteLine("start");
             var len = GetPageLength();
             WriteLine("after");
