@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable reference types", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassingParameters", "PassingParameters\PassingParameters.csproj", "{0CBB36DE-D0B3-490E-ACCE-1DCAEFC8560A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessPrivateVarFromObject", "AccessPrivateVarFromObject\AccessPrivateVarFromObject.csproj", "{D9B61D34-D749-4B5C-BBE5-F17887B53F5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{5FEB5185-25FF-4A3F-B2A4-FDDEE82E869E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FEB5185-25FF-4A3F-B2A4-FDDEE82E869E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FEB5185-25FF-4A3F-B2A4-FDDEE82E869E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B61D34-D749-4B5C-BBE5-F17887B53F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B61D34-D749-4B5C-BBE5-F17887B53F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B61D34-D749-4B5C-BBE5-F17887B53F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B61D34-D749-4B5C-BBE5-F17887B53F5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
