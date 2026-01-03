@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatchFinally", "TryCatch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "Operators\Operators.csproj", "{1DFED878-6F78-540F-5257-D772C2C4EADF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spans", "Spans\Spans.csproj", "{4E193F35-D869-4154-918D-02EC49DAB51B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +112,10 @@ Global
 		{1DFED878-6F78-540F-5257-D772C2C4EADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DFED878-6F78-540F-5257-D772C2C4EADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DFED878-6F78-540F-5257-D772C2C4EADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E193F35-D869-4154-918D-02EC49DAB51B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E193F35-D869-4154-918D-02EC49DAB51B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E193F35-D869-4154-918D-02EC49DAB51B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E193F35-D869-4154-918D-02EC49DAB51B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
